@@ -1,1 +1,5 @@
-# music-recommender git init git add README.md git commit -m v.0.0.1 git branch -M main git remote add origin https://github.com/leticia-a-lopes/music-recommender.git git push -u origin main
+# music recommender
+
+Recebe um artista e um gênero musical, consome as APIs do Spotify e Gemini, e recomenda 3 músicas semelhantes.
+
+Configure `SPOTIFY_CLIENT_ID`, `SPOTIFY_CLIENT_SECRET` e `GEMINI_API_KEY` no arquivo `.env`. Instale as dependências com `pip install -r requirements.txt` e execute `python main.py`.
